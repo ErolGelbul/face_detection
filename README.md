@@ -1,9 +1,14 @@
 <div id="top"></div>
 
-<div style="text-align:center"><img src="images/cover.png" /></div>
+<div style="text-align:center"><img src="images/cover.jpg" /></div>
 
 <!-- ABOUT THE PROJECT -->
-## Getting Started
+## Description
+
+I used the OpenCV library to load `faces.jpg` image into my project.
+After importing the `CascadeClassifier` I converted the image to grayscale.
+
+<div style="text-align:center"><img src="images/preview.gif" /></div>
 
 
 
@@ -13,6 +18,11 @@
 <!-- TECH -->
 ## Technologies
 
+IDE: [Jupyter Notebook](https://jupyter.org/)
+
+Libraries & Packages: [NumPy](https://numpy.org/), [OpenCV](https://pypi.org/project/opencv-python/)
+
+Download the [Cascade Classifier](https://github.com/opencv/opencv/tree/4.x/data/haarcascades) from OpenCV's GitHub repo.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
